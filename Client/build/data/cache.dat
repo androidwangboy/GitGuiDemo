@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-16"?>
+<Tenants>
+  <Default>1|XGenos.Framework;Augmentum.CMS.Client.Controls;Augmentum.CMS.Client.Converters;Augmentum.CMS.Client.Interactivity;Augmentum.CMS.ClientFramework;Augmentum.CMS.CommonLibrary;Augmentum.CMS.ServiceProxy;Castle.Core;Castle.DynamicProxy2;FluentNHibernate;GitGuiPlatform;Iesi.Collections;log4net;Microsoft.Expression.Interactions;Microsoft.Practices.Prism;Microsoft.Practices.Prism.Interactivity;Microsoft.Practices.ServiceLocation;Microsoft.Windows.Shell;Newtonsoft.Json;NHibernate;Prism.AutofacExtension;RestSharp;System.Windows.Interactivity;|</Default>
+</Tenants>

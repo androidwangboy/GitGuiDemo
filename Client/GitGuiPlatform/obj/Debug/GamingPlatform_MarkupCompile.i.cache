@@ -1,0 +1,20 @@
+﻿GamingPlatform
+
+
+library
+C#
+.cs
+D:\workspaces\Project Framework\Client\GamingPlatform\obj\Debug\
+Augmentum.Gaming.GamingPlatform
+none
+false
+DEBUG;TRACE
+
+11711796827
+
+46482845039
+25-1727572488
+DataTemplate\ViewDataTemplate.xaml;Views\AreaSelectBoard.xaml;Views\DetailPlayer.xaml;Views\GenderBoard.xaml;Views\HouseStatusBoard.xaml;Views\PlayerSearch.xaml;Views\SmallKeyboard.xaml;Views\ErrorMessageView.xaml;Views\LoginView.xaml;Views\PlayerList.xaml;Views\UnderConstructBoard.xaml;
+
+False
+

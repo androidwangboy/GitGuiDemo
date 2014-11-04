@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3471E694-EB25-406E-94D1-F3EFD6D53BB8}</ProjectGuid>
+    <OutputType>library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Cafe.GitGuiPlatform</RootNamespace>
+    <AssemblyName>GitGuiPlatform</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\build\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\build\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Augmentum.CMS.Client.Controls, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Lib\Augmentum.CMS.Client.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="Augmentum.CMS.Client.Converters">
+      <HintPath>..\..\Lib\Augmentum.CMS.Client.Converters.dll</HintPath>
+    </Reference>
+    <Reference Include="Augmentum.CMS.Client.Interactivity">
+      <HintPath>..\..\Lib\Augmentum.CMS.Client.Interactivity.dll</HintPath>
+    </Reference>
+    <Reference Include="Augmentum.CMS.ClientFramework">
+      <HintPath>..\..\Lib\Augmentum.CMS.ClientFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="Augmentum.CMS.CommonLibrary">
+      <HintPath>..\..\Lib\Augmentum.CMS.CommonLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="Augmentum.CMS.ServiceProxy">
+      <HintPath>..\..\Lib\Augmentum.CMS.ServiceProxy.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Expression.Interactions">
+      <HintPath>..\..\Lib\Microsoft.Expression.Interactions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Prism.Interactivity">
+      <HintPath>..\..\Lib\Microsoft.Practices.Prism.Interactivity.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Lib\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Windows.Shell">
+      <HintPath>..\..\Lib\Microsoft.Windows.Shell.dll</HintPath>
+    </Reference>
+    <Reference Include="Prism.AutofacExtension">
+      <HintPath>..\..\Lib\Prism.AutofacExtension.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Windows.Interactivity">
+      <HintPath>..\..\Lib\System.Windows.Interactivity.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="XGenos.Framework, Version=1.6.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Lib\client\XGenos.Framework.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Events.cs" />
+    <Compile Include="Exceptions\ExceptionPolicy.cs" />
+    <Compile Include="Exceptions\IExceptionHandler.cs" />
+    <Compile Include="Extensions\BirthDayValidationRule.cs" />
+    <Compile Include="GitGuiPlatformConstants.cs" />
+    <Compile Include="Modules\GamingPlatformModule.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="..\..\Version\GlobalAssemblyInfo.cs">
+      <Link>Properties\GlobalAssemblyInfo.cs</Link>
+    </Compile>
+    <AppDesigner Include="Properties\" />
+    <Compile Include="RegionNames.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="en-US-GitGuiPlatform.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="DataTemplate\ViewDataTemplate.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\LabelIcons\Icons.design" />
+    <None Include="Icons\LabelIcons\Thumbs.db" />
+    <None Include="zh-CN-GitGuiPlatform.xml">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Enums\" />
+    <Folder Include="Models\" />
+    <Folder Include="Resources\" />
+    <Folder Include="ViewModels\Helper\" />
+    <Folder Include="Views\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Icons\BackButton_Normal.png" />
+    <Resource Include="Icons\BackButton_Pressed.png" />
+    <Resource Include="Icons\LabelIcons\AvgBet.png" />
+    <Resource Include="Icons\LabelIcons\Birthday.png" />
+    <Resource Include="Icons\LabelIcons\BirthdayIndicator.png" />
+    <Resource Include="Icons\LabelIcons\CashIn.png" />
+    <Resource Include="Icons\LabelIcons\CasinoWinLoss.png" />
+    <Resource Include="Icons\LabelIcons\ChipsHidden.png" />
+    <Resource Include="Icons\LabelIcons\ChipsIn.png" />
+    <Resource Include="Icons\LabelIcons\ChipsVisible.png" />
+    <Resource Include="Icons\LabelIcons\Country.png" />
+    <Resource Include="Icons\LabelIcons\CountryIndicator.png" />
+    <Resource Include="Icons\LabelIcons\Gender.png" />
+    <Resource Include="Icons\LabelIcons\HandsPlayed.png" />
+    <Resource Include="Icons\LabelIcons\IDPhoto.png" />
+    <Resource Include="Icons\LabelIcons\InHouse.png" />
+    <Resource Include="Icons\LabelIcons\InHouseIndicator.png" />
+    <Resource Include="Icons\LabelIcons\Marker.png" />
+    <Resource Include="Icons\LabelIcons\Name.png" />
+    <Resource Include="Icons\LabelIcons\Phone.png" />
+    <Resource Include="Icons\LabelIcons\Pit.png" />
+    <Resource Include="Icons\LabelIcons\PlayDurationIndicator.png" />
+    <Resource Include="Icons\LabelIcons\Player.png" />
+    <Resource Include="Icons\LabelIcons\PlayerHeadCount.png" />
+    <Resource Include="Icons\LabelIcons\PlayerID.png" />
+    <Resource Include="Icons\LabelIcons\PlayerInfo.png" />
+    <Resource Include="Icons\LabelIcons\RatingNotes.png" />
+    <Resource Include="Icons\LabelIcons\RatingStatus.png" />
+    <Resource Include="Icons\LabelIcons\Refusal.png" />
+    <Resource Include="Icons\LabelIcons\TableIDIndicator.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Icons\PreviousPageButton.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Icons\NextPageButton.bmp" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(SolutionDir)\lib\fody\fody.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

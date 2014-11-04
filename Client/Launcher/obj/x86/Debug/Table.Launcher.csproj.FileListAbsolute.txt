@@ -1,0 +1,138 @@
+C:\Code\TrainingProject\Client\Terminal.Table\obj\x86\Debug\Table.Launcher.csprojResolveAssemblyReference.cache
+C:\Code\TrainingProject\Client\Terminal.Table\obj\x86\Debug\App.baml
+C:\Code\TrainingProject\Client\Terminal.Table\obj\x86\Debug\Common\SplashScreen.baml
+C:\Code\TrainingProject\Client\Terminal.Table\obj\x86\Debug\Shell.baml
+C:\Code\TrainingProject\Client\Terminal.Table\obj\x86\Debug\Styles\TouchScreenStyle.baml
+C:\Code\TrainingProject\Client\Terminal.Table\obj\x86\Debug\App.g.cs
+C:\Code\TrainingProject\Client\Terminal.Table\obj\x86\Debug\Common\SplashScreen.g.cs
+C:\Code\TrainingProject\Client\Terminal.Table\obj\x86\Debug\Shell.g.cs
+C:\Code\TrainingProject\Client\Terminal.Table\obj\x86\Debug\Table Accelerator_MarkupCompile.cache
+C:\Code\TrainingProject\Client\Terminal.Table\obj\x86\Debug\Table Accelerator.g.resources
+C:\Code\TrainingProject\Client\Terminal.Table\bin\Debug\log4net.config
+C:\Code\TrainingProject\Client\Terminal.Table\bin\Debug\en-US-GamingPlatform.xml
+C:\Code\TrainingProject\Client\Terminal.Table\bin\Debug\zh-CN-GamingPlatform.xml
+C:\Code\TrainingProject\Client\Terminal.Table\bin\Debug\Config\HostComponents.config
+C:\Code\TrainingProject\Client\Terminal.Table\bin\Debug\en-US.xml
+C:\Code\TrainingProject\Client\Terminal.Table\bin\Debug\zh-CN.xml
+C:\Code\TrainingProject\Client\Terminal.Table\bin\Debug\Table Accelerator.exe.config
+C:\Code\TrainingProject\Client\Terminal.Table\bin\Debug\Table Accelerator.exe
+C:\Code\TrainingProject\Client\Terminal.Table\bin\Debug\Table Accelerator.pdb
+C:\Code\TrainingProject\Client\Terminal.Table\bin\Debug\Augmentum.CMS.Client.Controls.dll
+C:\Code\TrainingProject\Client\Terminal.Table\bin\Debug\Augmentum.CMS.Client.Interactivity.dll
+C:\Code\TrainingProject\Client\Terminal.Table\bin\Debug\Augmentum.CMS.ClientFramework.dll
+C:\Code\TrainingProject\Client\Terminal.Table\bin\Debug\Augmentum.CMS.CommonLibrary.dll
+C:\Code\TrainingProject\Client\Terminal.Table\bin\Debug\Augmentum.CMS.ServiceProxy.dll
+C:\Code\TrainingProject\Client\Terminal.Table\bin\Debug\Autofac.Configuration.dll
+C:\Code\TrainingProject\Client\Terminal.Table\bin\Debug\Autofac.dll
+C:\Code\TrainingProject\Client\Terminal.Table\bin\Debug\Castle.Core.dll
+C:\Code\TrainingProject\Client\Terminal.Table\bin\Debug\Castle.DynamicProxy2.dll
+C:\Code\TrainingProject\Client\Terminal.Table\bin\Debug\FluentNHibernate.dll
+C:\Code\TrainingProject\Client\Terminal.Table\bin\Debug\GamingPlatform.Contract.dll
+C:\Code\TrainingProject\Client\Terminal.Table\bin\Debug\GamingPlatform.dll
+C:\Code\TrainingProject\Client\Terminal.Table\bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Code\TrainingProject\Client\Terminal.Table\bin\Debug\Newtonsoft.Json.dll
+C:\Code\TrainingProject\Client\Terminal.Table\bin\Debug\RestSharp.dll
+C:\Code\TrainingProject\Client\Terminal.Table\bin\Debug\XGenos.Framework.dll
+C:\Code\TrainingProject\Client\Terminal.Table\bin\Debug\System.Windows.Interactivity.dll
+C:\Code\TrainingProject\Client\Terminal.Table\bin\Debug\Microsoft.Practices.Prism.dll
+C:\Code\TrainingProject\Client\Terminal.Table\bin\Debug\log4net.dll
+C:\Code\TrainingProject\Client\Terminal.Table\bin\Debug\NHibernate.dll
+C:\Code\TrainingProject\Client\Terminal.Table\bin\Debug\Iesi.Collections.dll
+C:\Code\TrainingProject\Client\Terminal.Table\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Code\TrainingProject\Client\Terminal.Table\bin\Debug\GamingPlatform.Contract.pdb
+C:\Code\TrainingProject\Client\Terminal.Table\bin\Debug\GamingPlatform.pdb
+C:\Code\TrainingProject\Client\Terminal.Table\bin\Debug\XGenos.Framework.pdb
+C:\Code\TrainingProject\Client\Terminal.Table\obj\x86\Debug\Table Accelerator.exe
+C:\Code\TrainingProject\Client\Terminal.Table\obj\x86\Debug\Table Accelerator.pdb
+C:\Users\richie.zhu\Desktop\Work\Casino Project\Training\Training Project\Project Framework\Client\Terminal.Table\bin\Debug\log4net.config
+C:\Users\richie.zhu\Desktop\Work\Casino Project\Training\Training Project\Project Framework\Client\Terminal.Table\bin\Debug\en-US-GamingPlatform.xml
+C:\Users\richie.zhu\Desktop\Work\Casino Project\Training\Training Project\Project Framework\Client\Terminal.Table\bin\Debug\zh-CN-GamingPlatform.xml
+C:\Users\richie.zhu\Desktop\Work\Casino Project\Training\Training Project\Project Framework\Client\Terminal.Table\bin\Debug\Config\HostComponents.config
+C:\Users\richie.zhu\Desktop\Work\Casino Project\Training\Training Project\Project Framework\Client\Terminal.Table\bin\Debug\en-US.xml
+C:\Users\richie.zhu\Desktop\Work\Casino Project\Training\Training Project\Project Framework\Client\Terminal.Table\bin\Debug\zh-CN.xml
+C:\Users\richie.zhu\Desktop\Work\Casino Project\Training\Training Project\Project Framework\Client\Terminal.Table\bin\Debug\Table Accelerator.exe.config
+C:\Users\richie.zhu\Desktop\Work\Casino Project\Training\Training Project\Project Framework\Client\Terminal.Table\bin\Debug\Table Accelerator.exe
+C:\Users\richie.zhu\Desktop\Work\Casino Project\Training\Training Project\Project Framework\Client\Terminal.Table\bin\Debug\Table Accelerator.pdb
+C:\Users\richie.zhu\Desktop\Work\Casino Project\Training\Training Project\Project Framework\Client\Terminal.Table\bin\Debug\Augmentum.CMS.Client.Controls.dll
+C:\Users\richie.zhu\Desktop\Work\Casino Project\Training\Training Project\Project Framework\Client\Terminal.Table\bin\Debug\Augmentum.CMS.Client.Interactivity.dll
+C:\Users\richie.zhu\Desktop\Work\Casino Project\Training\Training Project\Project Framework\Client\Terminal.Table\bin\Debug\Augmentum.CMS.ClientFramework.dll
+C:\Users\richie.zhu\Desktop\Work\Casino Project\Training\Training Project\Project Framework\Client\Terminal.Table\bin\Debug\Augmentum.CMS.CommonLibrary.dll
+C:\Users\richie.zhu\Desktop\Work\Casino Project\Training\Training Project\Project Framework\Client\Terminal.Table\bin\Debug\Augmentum.CMS.ServiceProxy.dll
+C:\Users\richie.zhu\Desktop\Work\Casino Project\Training\Training Project\Project Framework\Client\Terminal.Table\bin\Debug\Autofac.Configuration.dll
+C:\Users\richie.zhu\Desktop\Work\Casino Project\Training\Training Project\Project Framework\Client\Terminal.Table\bin\Debug\Autofac.dll
+C:\Users\richie.zhu\Desktop\Work\Casino Project\Training\Training Project\Project Framework\Client\Terminal.Table\bin\Debug\Castle.Core.dll
+C:\Users\richie.zhu\Desktop\Work\Casino Project\Training\Training Project\Project Framework\Client\Terminal.Table\bin\Debug\Castle.DynamicProxy2.dll
+C:\Users\richie.zhu\Desktop\Work\Casino Project\Training\Training Project\Project Framework\Client\Terminal.Table\bin\Debug\FluentNHibernate.dll
+C:\Users\richie.zhu\Desktop\Work\Casino Project\Training\Training Project\Project Framework\Client\Terminal.Table\bin\Debug\GamingPlatform.Contract.dll
+C:\Users\richie.zhu\Desktop\Work\Casino Project\Training\Training Project\Project Framework\Client\Terminal.Table\bin\Debug\GamingPlatform.dll
+C:\Users\richie.zhu\Desktop\Work\Casino Project\Training\Training Project\Project Framework\Client\Terminal.Table\bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Users\richie.zhu\Desktop\Work\Casino Project\Training\Training Project\Project Framework\Client\Terminal.Table\bin\Debug\Newtonsoft.Json.dll
+C:\Users\richie.zhu\Desktop\Work\Casino Project\Training\Training Project\Project Framework\Client\Terminal.Table\bin\Debug\RestSharp.dll
+C:\Users\richie.zhu\Desktop\Work\Casino Project\Training\Training Project\Project Framework\Client\Terminal.Table\bin\Debug\XGenos.Framework.dll
+C:\Users\richie.zhu\Desktop\Work\Casino Project\Training\Training Project\Project Framework\Client\Terminal.Table\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\richie.zhu\Desktop\Work\Casino Project\Training\Training Project\Project Framework\Client\Terminal.Table\bin\Debug\Microsoft.Practices.Prism.dll
+C:\Users\richie.zhu\Desktop\Work\Casino Project\Training\Training Project\Project Framework\Client\Terminal.Table\bin\Debug\log4net.dll
+C:\Users\richie.zhu\Desktop\Work\Casino Project\Training\Training Project\Project Framework\Client\Terminal.Table\bin\Debug\NHibernate.dll
+C:\Users\richie.zhu\Desktop\Work\Casino Project\Training\Training Project\Project Framework\Client\Terminal.Table\bin\Debug\Iesi.Collections.dll
+C:\Users\richie.zhu\Desktop\Work\Casino Project\Training\Training Project\Project Framework\Client\Terminal.Table\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\richie.zhu\Desktop\Work\Casino Project\Training\Training Project\Project Framework\Client\Terminal.Table\bin\Debug\GamingPlatform.Contract.pdb
+C:\Users\richie.zhu\Desktop\Work\Casino Project\Training\Training Project\Project Framework\Client\Terminal.Table\bin\Debug\GamingPlatform.pdb
+C:\Users\richie.zhu\Desktop\Work\Casino Project\Training\Training Project\Project Framework\Client\Terminal.Table\bin\Debug\XGenos.Framework.pdb
+C:\Users\richie.zhu\Desktop\Work\Casino Project\Training\Training Project\Project Framework\Client\Terminal.Table\obj\x86\Debug\Table.Launcher.csprojResolveAssemblyReference.cache
+C:\Users\richie.zhu\Desktop\Work\Casino Project\Training\Training Project\Project Framework\Client\Terminal.Table\obj\x86\Debug\App.baml
+C:\Users\richie.zhu\Desktop\Work\Casino Project\Training\Training Project\Project Framework\Client\Terminal.Table\obj\x86\Debug\Common\SplashScreen.baml
+C:\Users\richie.zhu\Desktop\Work\Casino Project\Training\Training Project\Project Framework\Client\Terminal.Table\obj\x86\Debug\Shell.baml
+C:\Users\richie.zhu\Desktop\Work\Casino Project\Training\Training Project\Project Framework\Client\Terminal.Table\obj\x86\Debug\Styles\TouchScreenStyle.baml
+C:\Users\richie.zhu\Desktop\Work\Casino Project\Training\Training Project\Project Framework\Client\Terminal.Table\obj\x86\Debug\App.g.cs
+C:\Users\richie.zhu\Desktop\Work\Casino Project\Training\Training Project\Project Framework\Client\Terminal.Table\obj\x86\Debug\Common\SplashScreen.g.cs
+C:\Users\richie.zhu\Desktop\Work\Casino Project\Training\Training Project\Project Framework\Client\Terminal.Table\obj\x86\Debug\Shell.g.cs
+C:\Users\richie.zhu\Desktop\Work\Casino Project\Training\Training Project\Project Framework\Client\Terminal.Table\obj\x86\Debug\Table Accelerator_MarkupCompile.cache
+C:\Users\richie.zhu\Desktop\Work\Casino Project\Training\Training Project\Project Framework\Client\Terminal.Table\obj\x86\Debug\Table Accelerator.g.resources
+C:\Users\richie.zhu\Desktop\Work\Casino Project\Training\Training Project\Project Framework\Client\Terminal.Table\obj\x86\Debug\Table Accelerator.exe
+C:\Users\richie.zhu\Desktop\Work\Casino Project\Training\Training Project\Project Framework\Client\Terminal.Table\obj\x86\Debug\Table Accelerator.pdb
+D:\Project\Project Framework\Client\Terminal.Table\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Project\Project Framework\Client\Terminal.Table\obj\x86\Debug\App.baml
+D:\Project\Project Framework\Client\Terminal.Table\obj\x86\Debug\Common\SplashScreen.baml
+D:\Project\Project Framework\Client\Terminal.Table\obj\x86\Debug\Shell.baml
+D:\Project\Project Framework\Client\Terminal.Table\obj\x86\Debug\Styles\TouchScreenStyle.baml
+D:\Project\Project Framework\Client\Terminal.Table\obj\x86\Debug\App.g.cs
+D:\Project\Project Framework\Client\Terminal.Table\obj\x86\Debug\Common\SplashScreen.g.cs
+D:\Project\Project Framework\Client\Terminal.Table\obj\x86\Debug\Shell.g.cs
+D:\Project\Project Framework\Client\Terminal.Table\obj\x86\Debug\Table Accelerator_MarkupCompile.cache
+D:\Project\Project Framework\Client\Terminal.Table\obj\x86\Debug\Table Accelerator.g.resources
+D:\Project\Project Framework\Client\Terminal.Table\bin\Debug\log4net.config
+D:\Project\Project Framework\Client\Terminal.Table\bin\Debug\en-US-GamingPlatform.xml
+D:\Project\Project Framework\Client\Terminal.Table\bin\Debug\zh-CN-GamingPlatform.xml
+D:\Project\Project Framework\Client\Terminal.Table\bin\Debug\Config\HostComponents.config
+D:\Project\Project Framework\Client\Terminal.Table\bin\Debug\en-US.xml
+D:\Project\Project Framework\Client\Terminal.Table\bin\Debug\zh-CN.xml
+D:\Project\Project Framework\Client\Terminal.Table\bin\Debug\Table Accelerator.exe.config
+D:\Project\Project Framework\Client\Terminal.Table\bin\Debug\Table Accelerator.exe
+D:\Project\Project Framework\Client\Terminal.Table\bin\Debug\Table Accelerator.pdb
+D:\Project\Project Framework\Client\Terminal.Table\bin\Debug\Augmentum.CMS.Client.Controls.dll
+D:\Project\Project Framework\Client\Terminal.Table\bin\Debug\Augmentum.CMS.Client.Interactivity.dll
+D:\Project\Project Framework\Client\Terminal.Table\bin\Debug\Augmentum.CMS.ClientFramework.dll
+D:\Project\Project Framework\Client\Terminal.Table\bin\Debug\Augmentum.CMS.CommonLibrary.dll
+D:\Project\Project Framework\Client\Terminal.Table\bin\Debug\Augmentum.CMS.ServiceProxy.dll
+D:\Project\Project Framework\Client\Terminal.Table\bin\Debug\Autofac.Configuration.dll
+D:\Project\Project Framework\Client\Terminal.Table\bin\Debug\Autofac.dll
+D:\Project\Project Framework\Client\Terminal.Table\bin\Debug\Castle.Core.dll
+D:\Project\Project Framework\Client\Terminal.Table\bin\Debug\Castle.DynamicProxy2.dll
+D:\Project\Project Framework\Client\Terminal.Table\bin\Debug\FluentNHibernate.dll
+D:\Project\Project Framework\Client\Terminal.Table\bin\Debug\GamingPlatform.Contract.dll
+D:\Project\Project Framework\Client\Terminal.Table\bin\Debug\GamingPlatform.dll
+D:\Project\Project Framework\Client\Terminal.Table\bin\Debug\Microsoft.Expression.Interactions.dll
+D:\Project\Project Framework\Client\Terminal.Table\bin\Debug\Newtonsoft.Json.dll
+D:\Project\Project Framework\Client\Terminal.Table\bin\Debug\RestSharp.dll
+D:\Project\Project Framework\Client\Terminal.Table\bin\Debug\XGenos.Framework.dll
+D:\Project\Project Framework\Client\Terminal.Table\bin\Debug\System.Windows.Interactivity.dll
+D:\Project\Project Framework\Client\Terminal.Table\bin\Debug\Microsoft.Practices.Prism.dll
+D:\Project\Project Framework\Client\Terminal.Table\bin\Debug\log4net.dll
+D:\Project\Project Framework\Client\Terminal.Table\bin\Debug\NHibernate.dll
+D:\Project\Project Framework\Client\Terminal.Table\bin\Debug\Iesi.Collections.dll
+D:\Project\Project Framework\Client\Terminal.Table\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\Project\Project Framework\Client\Terminal.Table\bin\Debug\GamingPlatform.Contract.pdb
+D:\Project\Project Framework\Client\Terminal.Table\bin\Debug\GamingPlatform.pdb
+D:\Project\Project Framework\Client\Terminal.Table\bin\Debug\XGenos.Framework.pdb
+D:\Project\Project Framework\Client\Terminal.Table\obj\x86\Debug\Table Accelerator.exe
+D:\Project\Project Framework\Client\Terminal.Table\obj\x86\Debug\Table Accelerator.pdb

@@ -1,0 +1,36 @@
+﻿<Window x:Class="Augmentum.Gaming.Table.Launcher.Shell"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:commoncontrol="clr-namespace:Augmentum.CMS.Client.Controls.CommonControl;assembly=Augmentum.CMS.Client.Controls"
+        xmlns:xgenos="http://www.augmentum.com/xgenos"
+        Title="Player Search System"
+        FontFamily="Segoe UI, Microsoft YaHei"
+        RenderOptions.BitmapScalingMode="Fant"
+        ResizeMode="CanResize"
+        SnapsToDevicePixels="True"
+        WindowState="Normal"
+        WindowStyle="SingleBorderWindow">
+
+    <Window.Resources>
+        <commoncontrol:LoadingControlWrapper x:Key="LoadingControlWrapper" />
+    </Window.Resources>
+
+    <Viewbox>
+        <Grid Width="1024" Height="576">
+            <StackPanel Width="1024"
+                        Height="576"
+                        Orientation="Horizontal">
+                <ContentControl Width="700" xgenos:Zone.Name="MainRegion" />
+                <ContentControl Width="324" xgenos:Zone.Name="RightRegion" />
+            </StackPanel>
+
+            <commoncontrol:LoadingControl HorizontalContentAlignment="Stretch"
+                                          VerticalContentAlignment="Stretch"
+                                          IsBusy="{Binding Instance.IsBusy,
+                                                           Source={StaticResource LoadingControlWrapper}}"
+                                          Message="{Binding Instance.Message,
+                                                            Source={StaticResource LoadingControlWrapper}}" />
+
+        </Grid>
+    </Viewbox>
+</Window>

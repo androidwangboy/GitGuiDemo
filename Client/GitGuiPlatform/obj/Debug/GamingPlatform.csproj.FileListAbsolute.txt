@@ -1,0 +1,186 @@
+C:\Code\TrainingProject\Client\GamingPlatform\obj\Debug\GamingPlatform.csprojResolveAssemblyReference.cache
+C:\Code\TrainingProject\Client\GamingPlatform\obj\Debug\Views\ErrorMessageView.baml
+C:\Code\TrainingProject\Client\GamingPlatform\obj\Debug\Views\TestView.baml
+C:\Code\TrainingProject\Client\GamingPlatform\obj\Debug\Views\ErrorMessageView.g.cs
+C:\Code\TrainingProject\Client\GamingPlatform\obj\Debug\Views\TestView.g.cs
+C:\Code\TrainingProject\Client\GamingPlatform\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Code\TrainingProject\Client\GamingPlatform\obj\Debug\GamingPlatform_MarkupCompile.cache
+C:\Code\TrainingProject\Client\GamingPlatform\obj\Debug\GamingPlatform_MarkupCompile.lref
+C:\Code\TrainingProject\Client\GamingPlatform\bin\Debug\en-US-GamingPlatform.xml
+C:\Code\TrainingProject\Client\GamingPlatform\bin\Debug\zh-CN-GamingPlatform.xml
+C:\Code\TrainingProject\Client\GamingPlatform\bin\Debug\GamingPlatform.dll
+C:\Code\TrainingProject\Client\GamingPlatform\bin\Debug\GamingPlatform.pdb
+C:\Code\TrainingProject\Client\GamingPlatform\bin\Debug\Augmentum.CMS.Client.Controls.dll
+C:\Code\TrainingProject\Client\GamingPlatform\bin\Debug\Augmentum.CMS.Client.Converters.dll
+C:\Code\TrainingProject\Client\GamingPlatform\bin\Debug\Augmentum.CMS.Client.Interactivity.dll
+C:\Code\TrainingProject\Client\GamingPlatform\bin\Debug\Augmentum.CMS.ClientFramework.dll
+C:\Code\TrainingProject\Client\GamingPlatform\bin\Debug\Augmentum.CMS.CommonLibrary.dll
+C:\Code\TrainingProject\Client\GamingPlatform\bin\Debug\Augmentum.CMS.ServiceProxy.dll
+C:\Code\TrainingProject\Client\GamingPlatform\bin\Debug\GamingPlatform.Contract.dll
+C:\Code\TrainingProject\Client\GamingPlatform\bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Code\TrainingProject\Client\GamingPlatform\bin\Debug\Microsoft.Practices.Prism.Interactivity.dll
+C:\Code\TrainingProject\Client\GamingPlatform\bin\Debug\Microsoft.Windows.Shell.dll
+C:\Code\TrainingProject\Client\GamingPlatform\bin\Debug\Prism.AutofacExtension.dll
+C:\Code\TrainingProject\Client\GamingPlatform\bin\Debug\System.Windows.Interactivity.dll
+C:\Code\TrainingProject\Client\GamingPlatform\bin\Debug\XGenos.Framework.dll
+C:\Code\TrainingProject\Client\GamingPlatform\bin\Debug\Microsoft.Practices.Prism.dll
+C:\Code\TrainingProject\Client\GamingPlatform\bin\Debug\log4net.dll
+C:\Code\TrainingProject\Client\GamingPlatform\bin\Debug\Newtonsoft.Json.dll
+C:\Code\TrainingProject\Client\GamingPlatform\bin\Debug\RestSharp.dll
+C:\Code\TrainingProject\Client\GamingPlatform\bin\Debug\Castle.Core.dll
+C:\Code\TrainingProject\Client\GamingPlatform\bin\Debug\Autofac.dll
+C:\Code\TrainingProject\Client\GamingPlatform\bin\Debug\Castle.DynamicProxy2.dll
+C:\Code\TrainingProject\Client\GamingPlatform\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Code\TrainingProject\Client\GamingPlatform\bin\Debug\GamingPlatform.Contract.pdb
+C:\Code\TrainingProject\Client\GamingPlatform\bin\Debug\XGenos.Framework.pdb
+C:\Code\TrainingProject\Client\GamingPlatform\obj\Debug\DataTemplate\ViewDataTemplate.baml
+C:\Code\TrainingProject\Client\GamingPlatform\obj\Debug\GamingPlatform.g.resources
+C:\Code\TrainingProject\Client\GamingPlatform\obj\Debug\GamingPlatform.dll
+C:\Code\TrainingProject\Client\GamingPlatform\obj\Debug\GamingPlatform.pdb
+C:\Users\richie.zhu\Desktop\Work\Casino Project\Training\Training Project\Project Framework\Client\GamingPlatform\bin\Debug\en-US-GamingPlatform.xml
+C:\Users\richie.zhu\Desktop\Work\Casino Project\Training\Training Project\Project Framework\Client\GamingPlatform\bin\Debug\zh-CN-GamingPlatform.xml
+C:\Users\richie.zhu\Desktop\Work\Casino Project\Training\Training Project\Project Framework\Client\GamingPlatform\bin\Debug\GamingPlatform.dll
+C:\Users\richie.zhu\Desktop\Work\Casino Project\Training\Training Project\Project Framework\Client\GamingPlatform\bin\Debug\GamingPlatform.pdb
+C:\Users\richie.zhu\Desktop\Work\Casino Project\Training\Training Project\Project Framework\Client\GamingPlatform\bin\Debug\Augmentum.CMS.Client.Controls.dll
+C:\Users\richie.zhu\Desktop\Work\Casino Project\Training\Training Project\Project Framework\Client\GamingPlatform\bin\Debug\Augmentum.CMS.Client.Converters.dll
+C:\Users\richie.zhu\Desktop\Work\Casino Project\Training\Training Project\Project Framework\Client\GamingPlatform\bin\Debug\Augmentum.CMS.Client.Interactivity.dll
+C:\Users\richie.zhu\Desktop\Work\Casino Project\Training\Training Project\Project Framework\Client\GamingPlatform\bin\Debug\Augmentum.CMS.ClientFramework.dll
+C:\Users\richie.zhu\Desktop\Work\Casino Project\Training\Training Project\Project Framework\Client\GamingPlatform\bin\Debug\Augmentum.CMS.CommonLibrary.dll
+C:\Users\richie.zhu\Desktop\Work\Casino Project\Training\Training Project\Project Framework\Client\GamingPlatform\bin\Debug\Augmentum.CMS.ServiceProxy.dll
+C:\Users\richie.zhu\Desktop\Work\Casino Project\Training\Training Project\Project Framework\Client\GamingPlatform\bin\Debug\GamingPlatform.Contract.dll
+C:\Users\richie.zhu\Desktop\Work\Casino Project\Training\Training Project\Project Framework\Client\GamingPlatform\bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Users\richie.zhu\Desktop\Work\Casino Project\Training\Training Project\Project Framework\Client\GamingPlatform\bin\Debug\Microsoft.Practices.Prism.Interactivity.dll
+C:\Users\richie.zhu\Desktop\Work\Casino Project\Training\Training Project\Project Framework\Client\GamingPlatform\bin\Debug\Microsoft.Windows.Shell.dll
+C:\Users\richie.zhu\Desktop\Work\Casino Project\Training\Training Project\Project Framework\Client\GamingPlatform\bin\Debug\Prism.AutofacExtension.dll
+C:\Users\richie.zhu\Desktop\Work\Casino Project\Training\Training Project\Project Framework\Client\GamingPlatform\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\richie.zhu\Desktop\Work\Casino Project\Training\Training Project\Project Framework\Client\GamingPlatform\bin\Debug\XGenos.Framework.dll
+C:\Users\richie.zhu\Desktop\Work\Casino Project\Training\Training Project\Project Framework\Client\GamingPlatform\bin\Debug\Microsoft.Practices.Prism.dll
+C:\Users\richie.zhu\Desktop\Work\Casino Project\Training\Training Project\Project Framework\Client\GamingPlatform\bin\Debug\log4net.dll
+C:\Users\richie.zhu\Desktop\Work\Casino Project\Training\Training Project\Project Framework\Client\GamingPlatform\bin\Debug\Newtonsoft.Json.dll
+C:\Users\richie.zhu\Desktop\Work\Casino Project\Training\Training Project\Project Framework\Client\GamingPlatform\bin\Debug\RestSharp.dll
+C:\Users\richie.zhu\Desktop\Work\Casino Project\Training\Training Project\Project Framework\Client\GamingPlatform\bin\Debug\Castle.Core.dll
+C:\Users\richie.zhu\Desktop\Work\Casino Project\Training\Training Project\Project Framework\Client\GamingPlatform\bin\Debug\Autofac.dll
+C:\Users\richie.zhu\Desktop\Work\Casino Project\Training\Training Project\Project Framework\Client\GamingPlatform\bin\Debug\Castle.DynamicProxy2.dll
+C:\Users\richie.zhu\Desktop\Work\Casino Project\Training\Training Project\Project Framework\Client\GamingPlatform\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\richie.zhu\Desktop\Work\Casino Project\Training\Training Project\Project Framework\Client\GamingPlatform\bin\Debug\GamingPlatform.Contract.pdb
+C:\Users\richie.zhu\Desktop\Work\Casino Project\Training\Training Project\Project Framework\Client\GamingPlatform\bin\Debug\XGenos.Framework.pdb
+C:\Users\richie.zhu\Desktop\Work\Casino Project\Training\Training Project\Project Framework\Client\GamingPlatform\obj\Debug\GamingPlatform.csprojResolveAssemblyReference.cache
+C:\Users\richie.zhu\Desktop\Work\Casino Project\Training\Training Project\Project Framework\Client\GamingPlatform\obj\Debug\Views\ErrorMessageView.baml
+C:\Users\richie.zhu\Desktop\Work\Casino Project\Training\Training Project\Project Framework\Client\GamingPlatform\obj\Debug\Views\TestView.baml
+C:\Users\richie.zhu\Desktop\Work\Casino Project\Training\Training Project\Project Framework\Client\GamingPlatform\obj\Debug\Views\ErrorMessageView.g.cs
+C:\Users\richie.zhu\Desktop\Work\Casino Project\Training\Training Project\Project Framework\Client\GamingPlatform\obj\Debug\Views\TestView.g.cs
+C:\Users\richie.zhu\Desktop\Work\Casino Project\Training\Training Project\Project Framework\Client\GamingPlatform\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\richie.zhu\Desktop\Work\Casino Project\Training\Training Project\Project Framework\Client\GamingPlatform\obj\Debug\GamingPlatform_MarkupCompile.cache
+C:\Users\richie.zhu\Desktop\Work\Casino Project\Training\Training Project\Project Framework\Client\GamingPlatform\obj\Debug\GamingPlatform_MarkupCompile.lref
+C:\Users\richie.zhu\Desktop\Work\Casino Project\Training\Training Project\Project Framework\Client\GamingPlatform\obj\Debug\DataTemplate\ViewDataTemplate.baml
+C:\Users\richie.zhu\Desktop\Work\Casino Project\Training\Training Project\Project Framework\Client\GamingPlatform\obj\Debug\GamingPlatform.g.resources
+C:\Users\richie.zhu\Desktop\Work\Casino Project\Training\Training Project\Project Framework\Client\GamingPlatform\obj\Debug\GamingPlatform.dll
+C:\Users\richie.zhu\Desktop\Work\Casino Project\Training\Training Project\Project Framework\Client\GamingPlatform\obj\Debug\GamingPlatform.pdb
+D:\Project\Project Framework\Client\GamingPlatform\obj\Debug\ResolveAssemblyReference.cache
+D:\Project\Project Framework\Client\GamingPlatform\obj\Debug\Views\ErrorMessageView.baml
+D:\Project\Project Framework\Client\GamingPlatform\obj\Debug\Views\LoginView.baml
+D:\Project\Project Framework\Client\GamingPlatform\obj\Debug\Views\PlayerList.baml
+D:\Project\Project Framework\Client\GamingPlatform\obj\Debug\Views\ErrorMessageView.g.cs
+D:\Project\Project Framework\Client\GamingPlatform\obj\Debug\Views\LoginView.g.cs
+D:\Project\Project Framework\Client\GamingPlatform\obj\Debug\Views\PlayerList.g.cs
+D:\Project\Project Framework\Client\GamingPlatform\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Project\Project Framework\Client\GamingPlatform\obj\Debug\GamingPlatform_MarkupCompile.cache
+D:\Project\Project Framework\Client\GamingPlatform\obj\Debug\GamingPlatform_MarkupCompile.lref
+D:\Project\Project Framework\Client\GamingPlatform\bin\Debug\en-US-GamingPlatform.xml
+D:\Project\Project Framework\Client\GamingPlatform\bin\Debug\zh-CN-GamingPlatform.xml
+D:\Project\Project Framework\Client\GamingPlatform\bin\Debug\GamingPlatform.dll
+D:\Project\Project Framework\Client\GamingPlatform\bin\Debug\GamingPlatform.pdb
+D:\Project\Project Framework\Client\GamingPlatform\bin\Debug\Augmentum.CMS.Client.Controls.dll
+D:\Project\Project Framework\Client\GamingPlatform\bin\Debug\Augmentum.CMS.Client.Converters.dll
+D:\Project\Project Framework\Client\GamingPlatform\bin\Debug\Augmentum.CMS.Client.Interactivity.dll
+D:\Project\Project Framework\Client\GamingPlatform\bin\Debug\Augmentum.CMS.ClientFramework.dll
+D:\Project\Project Framework\Client\GamingPlatform\bin\Debug\Augmentum.CMS.CommonLibrary.dll
+D:\Project\Project Framework\Client\GamingPlatform\bin\Debug\Augmentum.CMS.ServiceProxy.dll
+D:\Project\Project Framework\Client\GamingPlatform\bin\Debug\GamingPlatform.Contract.dll
+D:\Project\Project Framework\Client\GamingPlatform\bin\Debug\Microsoft.Expression.Interactions.dll
+D:\Project\Project Framework\Client\GamingPlatform\bin\Debug\Microsoft.Practices.Prism.Interactivity.dll
+D:\Project\Project Framework\Client\GamingPlatform\bin\Debug\Microsoft.Windows.Shell.dll
+D:\Project\Project Framework\Client\GamingPlatform\bin\Debug\Prism.AutofacExtension.dll
+D:\Project\Project Framework\Client\GamingPlatform\bin\Debug\System.Windows.Interactivity.dll
+D:\Project\Project Framework\Client\GamingPlatform\bin\Debug\XGenos.Framework.dll
+D:\Project\Project Framework\Client\GamingPlatform\bin\Debug\Microsoft.Practices.Prism.dll
+D:\Project\Project Framework\Client\GamingPlatform\bin\Debug\log4net.dll
+D:\Project\Project Framework\Client\GamingPlatform\bin\Debug\Newtonsoft.Json.dll
+D:\Project\Project Framework\Client\GamingPlatform\bin\Debug\RestSharp.dll
+D:\Project\Project Framework\Client\GamingPlatform\bin\Debug\Castle.Core.dll
+D:\Project\Project Framework\Client\GamingPlatform\bin\Debug\Autofac.dll
+D:\Project\Project Framework\Client\GamingPlatform\bin\Debug\Castle.DynamicProxy2.dll
+D:\Project\Project Framework\Client\GamingPlatform\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\Project\Project Framework\Client\GamingPlatform\bin\Debug\GamingPlatform.Contract.pdb
+D:\Project\Project Framework\Client\GamingPlatform\bin\Debug\XGenos.Framework.pdb
+D:\Project\Project Framework\Client\GamingPlatform\obj\Debug\DataTemplate\ViewDataTemplate.baml
+D:\Project\Project Framework\Client\GamingPlatform\obj\Debug\GamingPlatform.g.resources
+D:\Project\Project Framework\Client\GamingPlatform\obj\Debug\GamingPlatform.dll
+D:\Project\Project Framework\Client\GamingPlatform\obj\Debug\GamingPlatform.pdb
+D:\Project\Project Framework\Client\GamingPlatform\obj\Debug\Views\PlayerSearch.baml
+D:\Project\Project Framework\Client\GamingPlatform\obj\Debug\Views\PlayerSearch.g.cs
+D:\Project\Project Framework\Client\GamingPlatform\obj\Debug\Views\SmallKeyboard.baml
+D:\Project\Project Framework\Client\GamingPlatform\obj\Debug\Views\SmallKeyboard.g.cs
+D:\Project\Project Framework\Client\GamingPlatform\obj\Debug\Views\DetailPlayer.baml
+D:\Project\Project Framework\Client\GamingPlatform\obj\Debug\Views\DetailPlayer.g.cs
+D:\Project\Project Framework\Client\GamingPlatform\obj\Debug\Views\GenderBoard.baml
+D:\Project\Project Framework\Client\GamingPlatform\obj\Debug\Views\GenderBoard.g.cs
+D:\Project\Project Framework\Client\GamingPlatform\obj\Debug\Views\HouseStatusBoard.baml
+D:\Project\Project Framework\Client\GamingPlatform\obj\Debug\Views\HouseStatusBoard.g.cs
+D:\Project\Project Framework\Client\GamingPlatform\obj\Debug\Views\AreaSelectBoard.baml
+D:\Project\Project Framework\Client\GamingPlatform\obj\Debug\Views\AreaSelectBoard.g.cs
+D:\Project\Project Framework\Client\GamingPlatform\obj\Debug\Views\UnderConstructBoard.baml
+D:\Project\Project Framework\Client\GamingPlatform\obj\Debug\Views\UnderConstructBoard.g.cs
+D:\workspaces\Project Framework\Client\GamingPlatform\obj\Debug\GamingPlatform.csprojResolveAssemblyReference.cache
+D:\workspaces\Project Framework\Client\GamingPlatform\obj\Debug\Views\AreaSelectBoard.baml
+D:\workspaces\Project Framework\Client\GamingPlatform\obj\Debug\Views\DetailPlayer.baml
+D:\workspaces\Project Framework\Client\GamingPlatform\obj\Debug\Views\GenderBoard.baml
+D:\workspaces\Project Framework\Client\GamingPlatform\obj\Debug\Views\HouseStatusBoard.baml
+D:\workspaces\Project Framework\Client\GamingPlatform\obj\Debug\Views\ErrorMessageView.baml
+D:\workspaces\Project Framework\Client\GamingPlatform\obj\Debug\Views\PlayerList.baml
+D:\workspaces\Project Framework\Client\GamingPlatform\obj\Debug\Views\UnderConstructBoard.baml
+D:\workspaces\Project Framework\Client\GamingPlatform\obj\Debug\Views\AreaSelectBoard.g.cs
+D:\workspaces\Project Framework\Client\GamingPlatform\obj\Debug\Views\DetailPlayer.g.cs
+D:\workspaces\Project Framework\Client\GamingPlatform\obj\Debug\Views\GenderBoard.g.cs
+D:\workspaces\Project Framework\Client\GamingPlatform\obj\Debug\Views\HouseStatusBoard.g.cs
+D:\workspaces\Project Framework\Client\GamingPlatform\obj\Debug\Views\PlayerSearch.g.cs
+D:\workspaces\Project Framework\Client\GamingPlatform\obj\Debug\Views\SmallKeyboard.g.cs
+D:\workspaces\Project Framework\Client\GamingPlatform\obj\Debug\Views\ErrorMessageView.g.cs
+D:\workspaces\Project Framework\Client\GamingPlatform\obj\Debug\Views\LoginView.g.cs
+D:\workspaces\Project Framework\Client\GamingPlatform\obj\Debug\Views\PlayerList.g.cs
+D:\workspaces\Project Framework\Client\GamingPlatform\obj\Debug\Views\UnderConstructBoard.g.cs
+D:\workspaces\Project Framework\Client\GamingPlatform\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\workspaces\Project Framework\Client\GamingPlatform\obj\Debug\GamingPlatform_MarkupCompile.cache
+D:\workspaces\Project Framework\Client\GamingPlatform\obj\Debug\GamingPlatform_MarkupCompile.lref
+D:\workspaces\Project Framework\Client\GamingPlatform\obj\Debug\GamingPlatform.dll
+D:\workspaces\Project Framework\Client\GamingPlatform\obj\Debug\GamingPlatform.pdb
+D:\workspaces\Project Framework\Client\GamingPlatform\bin\Debug\en-US-GamingPlatform.xml
+D:\workspaces\Project Framework\Client\GamingPlatform\bin\Debug\zh-CN-GamingPlatform.xml
+D:\workspaces\Project Framework\Client\GamingPlatform\bin\Debug\GamingPlatform.dll
+D:\workspaces\Project Framework\Client\GamingPlatform\bin\Debug\GamingPlatform.pdb
+D:\workspaces\Project Framework\Client\GamingPlatform\bin\Debug\Augmentum.CMS.Client.Controls.dll
+D:\workspaces\Project Framework\Client\GamingPlatform\bin\Debug\Augmentum.CMS.Client.Converters.dll
+D:\workspaces\Project Framework\Client\GamingPlatform\bin\Debug\Augmentum.CMS.Client.Interactivity.dll
+D:\workspaces\Project Framework\Client\GamingPlatform\bin\Debug\Augmentum.CMS.ClientFramework.dll
+D:\workspaces\Project Framework\Client\GamingPlatform\bin\Debug\Augmentum.CMS.CommonLibrary.dll
+D:\workspaces\Project Framework\Client\GamingPlatform\bin\Debug\Augmentum.CMS.ServiceProxy.dll
+D:\workspaces\Project Framework\Client\GamingPlatform\bin\Debug\Microsoft.Expression.Interactions.dll
+D:\workspaces\Project Framework\Client\GamingPlatform\bin\Debug\Microsoft.Practices.Prism.Interactivity.dll
+D:\workspaces\Project Framework\Client\GamingPlatform\bin\Debug\Microsoft.Windows.Shell.dll
+D:\workspaces\Project Framework\Client\GamingPlatform\bin\Debug\Prism.AutofacExtension.dll
+D:\workspaces\Project Framework\Client\GamingPlatform\bin\Debug\System.Windows.Interactivity.dll
+D:\workspaces\Project Framework\Client\GamingPlatform\bin\Debug\XGenos.Framework.dll
+D:\workspaces\Project Framework\Client\GamingPlatform\bin\Debug\Microsoft.Practices.Prism.dll
+D:\workspaces\Project Framework\Client\GamingPlatform\bin\Debug\log4net.dll
+D:\workspaces\Project Framework\Client\GamingPlatform\bin\Debug\Newtonsoft.Json.dll
+D:\workspaces\Project Framework\Client\GamingPlatform\bin\Debug\RestSharp.dll
+D:\workspaces\Project Framework\Client\GamingPlatform\bin\Debug\Castle.Core.dll
+D:\workspaces\Project Framework\Client\GamingPlatform\bin\Debug\Autofac.dll
+D:\workspaces\Project Framework\Client\GamingPlatform\bin\Debug\Castle.DynamicProxy2.dll
+D:\workspaces\Project Framework\Client\GamingPlatform\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\workspaces\Project Framework\Client\GamingPlatform\bin\Debug\XGenos.Framework.pdb
+D:\workspaces\Project Framework\Client\GamingPlatform\obj\Debug\DataTemplate\ViewDataTemplate.baml
+D:\workspaces\Project Framework\Client\GamingPlatform\obj\Debug\Views\PlayerSearch.baml
+D:\workspaces\Project Framework\Client\GamingPlatform\obj\Debug\Views\SmallKeyboard.baml
+D:\workspaces\Project Framework\Client\GamingPlatform\obj\Debug\Views\LoginView.baml
+D:\workspaces\Project Framework\Client\GamingPlatform\obj\Debug\GamingPlatform.g.resources
