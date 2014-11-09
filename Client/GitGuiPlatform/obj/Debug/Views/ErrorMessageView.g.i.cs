@@ -10,6 +10,8 @@
 //------------------------------------------------------------------------------
 
 using Augmentum.CMS.ClientFramework.I18N;
+using Cafe.GitGuiPlatform.ViewModels;
+using Cafe.GitGuiPlatform.Views;
 using Microsoft.Expression.Interactivity.Core;
 using Microsoft.Expression.Interactivity.Input;
 using Microsoft.Expression.Interactivity.Layout;

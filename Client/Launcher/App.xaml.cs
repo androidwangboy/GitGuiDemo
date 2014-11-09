@@ -1,13 +1,4 @@
-﻿//
-// Copyright (c) 2013 Augmentum, Inc. All Rights Reserved.
-//
-// THIS CODE AND INFORMATION ARE PROVIDED "AS IS" WITHOUT WARRANTY OF ANY 
-// KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE
-// IMPLIED WARRANTIES OF MERCHANTABILITY AND/OR FITNESS FOR A
-// PARTICULAR PURPOSE.
-//
-
-using System;
+﻿using System;
 using System.Configuration;
 using System.Globalization;
 using System.IO;
@@ -29,6 +20,7 @@ using Augmentum.XGenos.Exceptions;
 using Augmentum.XGenos.UI;
 
 using Autofac;
+using GitGuiDemo.Common;
 
 namespace Augmentum.Gaming.Table.Launcher
 {
@@ -60,6 +52,12 @@ namespace Augmentum.Gaming.Table.Launcher
             {
                 builder.RegisterType<Shell>();
                 builder.RegisterType<CustomizedInterceptor>().As<IServiceProxyInterceptor>();
+                builder.RegisterType<DemoExceptionHandler>().As<IExceptionHandler>()
+                    .OnActivated(x =>
+                    {
+                        x.Instance.Container = x.Context.Resolve<IXGenosContainer>();
+                        x.Instance.ZoneManager = x.Context.Resolve<IZoneManager>();
+                    });
             }, features, false);
 
             bootstrapper.Run(
@@ -78,7 +76,7 @@ namespace Augmentum.Gaming.Table.Launcher
                 },
                 scope =>
                 {
-                    scope.Resolve<IEventAggregator>().GetEvent<TableStartupEvent>().Publish(null);
+                    scope.Resolve<IEventAggregator>().GetEvent<DemoStartUpEvent>().Publish(null);
                 });
         }
 

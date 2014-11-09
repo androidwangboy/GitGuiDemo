@@ -106,6 +106,16 @@
     </Compile>
     <AppDesigner Include="Properties\" />
     <Compile Include="RegionNames.cs" />
+    <Compile Include="ViewModels\ErrorMessageViewModel.cs" />
+    <Compile Include="ViewModels\IErrorMessageViewModel.cs" />
+    <Compile Include="ViewModels\IWelcomeViewModel.cs" />
+    <Compile Include="ViewModels\WelcomeViewModel.cs" />
+    <Compile Include="Views\ErrorMessageView.xaml.cs">
+      <DependentUpon>ErrorMessageView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\WelcomeView.xaml.cs">
+      <DependentUpon>WelcomeView.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="en-US-GitGuiPlatform.xml">
@@ -115,6 +125,14 @@
   </ItemGroup>
   <ItemGroup>
     <Page Include="DataTemplate\ViewDataTemplate.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\ErrorMessageView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\WelcomeView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -132,7 +150,6 @@
     <Folder Include="Models\" />
     <Folder Include="Resources\" />
     <Folder Include="ViewModels\Helper\" />
-    <Folder Include="Views\" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Icons\BackButton_Normal.png" />

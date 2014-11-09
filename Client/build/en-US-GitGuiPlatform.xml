@@ -2,5 +2,6 @@
 <root>
   <label_resources>
     <resource key="GamingPlatform_DefaultValue_Label">Default</resource>
+    <resource key="DemoTitle">Git GUI Demo</resource>
   </label_resources>
 </root>

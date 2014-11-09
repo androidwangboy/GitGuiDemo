@@ -87,7 +87,6 @@ D:\workspaces\Project Framework\Client\GitGuiPlatform\obj\Debug\GitGuiPlatform.d
 D:\workspaces\Project Framework\Client\GitGuiPlatform\obj\Debug\GitGuiPlatform.pdb
 D:\workspaces\Project Framework\Client\build\en-US-GitGuiPlatform.xml
 D:\workspaces\Project Framework\Client\build\zh-CN-GitGuiPlatform.xml
-E:\workspaces\Demo Project\Client\GitGuiPlatform\obj\Debug\GitGuiPlatform.csprojResolveAssemblyReference.cache
 E:\workspaces\Demo Project\Client\GitGuiPlatform\obj\Debug\GitGuiPlatform_MarkupCompile.cache
 E:\workspaces\Demo Project\Client\GitGuiPlatform\obj\Debug\GitGuiPlatform_MarkupCompile.lref
 E:\workspaces\Demo Project\Client\GitGuiPlatform\obj\Debug\GitGuiPlatform.dll
@@ -98,3 +97,9 @@ E:\workspaces\Demo Project\Client\build\GitGuiPlatform.dll
 E:\workspaces\Demo Project\Client\build\GitGuiPlatform.pdb
 E:\workspaces\Demo Project\Client\GitGuiPlatform\obj\Debug\DataTemplate\ViewDataTemplate.baml
 E:\workspaces\Demo Project\Client\GitGuiPlatform\obj\Debug\GitGuiPlatform.g.resources
+E:\workspaces\Demo Project\Client\GitGuiPlatform\obj\Debug\Views\WelcomeView.baml
+E:\workspaces\Demo Project\Client\GitGuiPlatform\obj\Debug\Views\WelcomeView.g.cs
+E:\workspaces\Demo Project\Client\GitGuiPlatform\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\workspaces\Demo Project\Client\GitGuiPlatform\obj\Debug\Views\ErrorMessageView.baml
+E:\workspaces\Demo Project\Client\GitGuiPlatform\obj\Debug\Views\ErrorMessageView.g.cs
+E:\workspaces\Demo Project\Client\GitGuiPlatform\obj\Debug\GitGuiPlatform.csprojResolveAssemblyReference.cache

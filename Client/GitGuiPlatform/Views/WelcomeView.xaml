@@ -1,0 +1,39 @@
+﻿<UserControl x:Class="Cafe.GitGuiPlatform.Views.WelcomeView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d">
+    <UserControl.Resources>
+        <Style x:Key="Local_TitleTemplate" TargetType="TextBlock">
+            <Setter Property="Width" Value="Auto" />
+            <Setter Property="FontWeight" Value="Bold" />
+            <Setter Property="TextWrapping" Value="Wrap" />
+            <Setter Property="Foreground" Value="#FFA38A8A" />
+            <Setter Property="FontSize" Value="30pt" />
+            <Setter Property="FontFamily" Value="Segoe, Segoe UI, Arial" />
+        </Style>
+        <Style x:Key="Local_ButtonTemplate" TargetType="Button">
+            <Setter Property="Height" Value="50" />
+            <Setter Property="FontWeight" Value="Bold" />
+            <Setter Property="FontFamily" Value="Segoe, Segoe UI, Times New Roman" />
+        </Style>
+    </UserControl.Resources>
+    <Grid Width="300px" Height="300px" Margin="300,0,0,0" Background="#FF453E3E" Opacity="1">
+        <StackPanel HorizontalAlignment="Center" Height="90" Margin="10,0,0,0" VerticalAlignment="Top" Width="280">
+            <TextBlock Name="m_Title"
+                       Text="{Binding DemoTitle}"
+                       Style="{StaticResource Local_TitleTemplate}"/>
+        </StackPanel>
+        <StackPanel HorizontalAlignment="Left" Height="90" Margin="10,102,0,0" VerticalAlignment="Top" Width="280">
+            <Button Style="{StaticResource Local_ButtonTemplate}"
+                    Background="#FF6495ED"
+                    Content="打开或初始化一个本地Repository" />
+        </StackPanel>
+        <StackPanel HorizontalAlignment="Left" Height="90" Margin="10,202,0,0" VerticalAlignment="Top" Width="280">
+            <Button Style="{StaticResource Local_ButtonTemplate}"
+                    Background="#FFFF6347"
+                    Content="退出" />
+        </StackPanel>
+    </Grid>
+</UserControl>

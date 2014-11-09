@@ -4,13 +4,19 @@ using System.Windows;
 using Augmentum.CMS.ClientFramework.I18N;
 using Augmentum.XGenos;
 using Augmentum.XGenos.Logging;
+using Cafe.GitGuiPlatform.ViewModels;
 
 namespace Cafe.GitGuiPlatform.Modules
 {
+    /// <summary>
+    /// 
+    /// </summary>
     public class GamingPlatformModule : ModuleBase
     {
         #region Public Fields
+
         public ILogger Logger { get; set; }
+
         #endregion
 
         #region Protected Methods Override ModuleBase
@@ -26,23 +32,17 @@ namespace Cafe.GitGuiPlatform.Modules
 
         protected override void SubscribeEvents()
         {
-            EventAggregator.GetEvent<TableStartupEvent>().Subscribe(OnTableStartupEvent, true);
-            EventAggregator.GetEvent<PlayerListStartupEvent>().Subscribe(OnPlayerListStartupEvent, true);
-            EventAggregator.GetEvent<SearchPageStartupEvent>().Subscribe(OnSearchPageStartupEvent, true);
+            EventAggregator.GetEvent<DemoStartUpEvent>().Subscribe(OnDemoStartUpEvent, true);
         }
 
         #endregion
 
         #region Public Methods
 
-        public void OnTableStartupEvent(object payload)
+        public void OnDemoStartUpEvent(object payload)
         {
-        }
-        public void OnPlayerListStartupEvent(object payload)
-        {
-        }
-        public void OnSearchPageStartupEvent(object payload)
-        {
+            IWelcomeViewModel welcomeViewModel = Container.Resolve<IWelcomeViewModel>();
+            welcomeViewModel.Initialize();
         }
 
         #endregion

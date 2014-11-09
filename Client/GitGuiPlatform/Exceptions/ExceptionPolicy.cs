@@ -10,30 +10,39 @@ namespace Cafe.GitGuiPlatform.Exceptions
     public class ExceptionPolicy : IExceptionPolicy
     {
         #region Private Fields
+
         private readonly IExceptionHandler _exceptionHandler;
+
         #endregion
 
         #region Constructor
+
         public ExceptionPolicy(IExceptionHandler exceptionHandler)
         {
-            Logger = NullLogger.Instance;
-
             _exceptionHandler = exceptionHandler;
+
+            Logger = NullLogger.Instance;
         }
+
         #endregion
 
         #region Public Fields
+
         public ILogger Logger { get; set; }
+
         #endregion
 
         #region Public Methods
+
         public bool HandleException(object sender, Exception exception)
         {
             Logger.Error(exception, "An unexpected exception was caught.");
 
             _exceptionHandler.HandleException(sender, exception);
+
             return true;
         }
+
         #endregion
     }
 }

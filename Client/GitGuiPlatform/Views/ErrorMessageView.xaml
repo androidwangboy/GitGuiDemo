@@ -1,0 +1,66 @@
+﻿<UserControl x:Class="Cafe.GitGuiPlatform.Views.ErrorMessageView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:ei="http://schemas.microsoft.com/expression/2010/interactions"
+             xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+             xmlns:languageManager="clr-namespace:Augmentum.CMS.ClientFramework.I18N;assembly=Augmentum.CMS.ClientFramework"
+             x:Name="m_self">
+
+    <UserControl.Resources>
+        <SolidColorBrush x:Key="Local_MaskBackground" Color="#BF000000" />
+
+        <languageManager:LanguageManagerWrapper x:Key="LanguageManagerWrapper" />
+
+    </UserControl.Resources>
+
+    <Grid Background="{StaticResource Local_MaskBackground}">
+        <Border VerticalAlignment="Center">
+            <Border.Background>
+                <ImageBrush ImageSource="../Icons/Background.png" />
+            </Border.Background>
+
+            <Grid Margin="60,25,60,20">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+
+                <TextBlock Grid.Row="0"
+                           FontSize="{StaticResource FontSizeTwentyFour}"
+                           Foreground="#FFFFFFFF"
+                           Text="{Binding Title}" />
+
+                <StackPanel Grid.Row="1" Margin="0,10,0,25">
+                    <TextBlock FontSize="{StaticResource FontSizeTwenty}"
+                               Foreground="#FFFFFFFF"
+                               Text="{Binding Description}"
+                               TextWrapping="Wrap" />
+                    <TextBlock FontSize="{StaticResource FontSizeTwenty}"
+                               Foreground="#FFFFFFFF"
+                               Text="{Binding ErrorCodeDisplay}">
+                        <TextBlock.Style>
+                            <Style TargetType="{x:Type TextBlock}">
+                                <Style.Triggers>
+                                    <DataTrigger Binding="{Binding ErrorCode}" Value="{x:Null}">
+                                        <Setter Property="Visibility" Value="Collapsed" />
+                                    </DataTrigger>
+                                </Style.Triggers>
+                            </Style>
+                        </TextBlock.Style>
+                    </TextBlock>
+                </StackPanel>
+
+                <Button Grid.Row="2"
+                        Width="160"
+                        Height="38"
+                        HorizontalAlignment="Right"
+                        Command="{Binding OkCommand}"
+                        Content="{Binding Instance.Lang[GamingPlatform_Close_Application_Label],
+                                          Mode=OneWay,
+                                          Source={StaticResource LanguageManagerWrapper}}"
+                        Style="{StaticResource BlueButtonStyle}" />
+            </Grid>
+        </Border>
+    </Grid>
+</UserControl>

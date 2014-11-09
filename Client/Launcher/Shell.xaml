@@ -3,7 +3,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:commoncontrol="clr-namespace:Augmentum.CMS.Client.Controls.CommonControl;assembly=Augmentum.CMS.Client.Controls"
         xmlns:xgenos="http://www.augmentum.com/xgenos"
-        Title="Player Search System"
+        Title="Git GUI Demo"
         FontFamily="Segoe UI, Microsoft YaHei"
         RenderOptions.BitmapScalingMode="Fant"
         ResizeMode="CanResize"

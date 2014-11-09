@@ -119,6 +119,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Common\ExceptionHandlerBase\DemoExceptionHandler.cs" />
     <Compile Include="Common\ExceptionHandlerBase\ExceptionHandlerBase.cs" />
     <Page Include="App.xaml">
       <Generator>MSBuild:Compile</Generator>

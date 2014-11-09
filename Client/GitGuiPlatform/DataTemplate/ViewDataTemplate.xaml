@@ -1,6 +1,12 @@
 ﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-                    xmlns:GamingPlatformViewModels="clr-namespace:Cafe.GitGuiPlatform.ViewModels"
-                    xmlns:GamingPlatformViews="clr-namespace:Cafe.GitGuiPlatform.Views">
-
+                    xmlns:GitGuiPlatformViewModels="clr-namespace:Cafe.GitGuiPlatform.ViewModels"
+                    xmlns:GitGuiPlatformViews="clr-namespace:Cafe.GitGuiPlatform.Views">
+    <DataTemplate DataType="{x:Type GitGuiPlatformViewModels:ErrorMessageViewModel}">
+        <GitGuiPlatformViews:ErrorMessageView />
+    </DataTemplate>
+    
+    <DataTemplate DataType="{x:Type GitGuiPlatformViewModels:WelcomeViewModel}">
+        <GitGuiPlatformViews:WelcomeView />
+    </DataTemplate>
 </ResourceDictionary>
