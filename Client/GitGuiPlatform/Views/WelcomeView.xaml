@@ -28,12 +28,14 @@
         <StackPanel HorizontalAlignment="Left" Height="90" Margin="10,102,0,0" VerticalAlignment="Top" Width="280">
             <Button Style="{StaticResource Local_ButtonTemplate}"
                     Background="#FF6495ED"
-                    Content="打开或初始化一个本地Repository" />
+                    Content="打开或初始化一个本地Repository"
+                    Command="{Binding OpenOrInitRepositoryCommand}"/>
         </StackPanel>
         <StackPanel HorizontalAlignment="Left" Height="90" Margin="10,202,0,0" VerticalAlignment="Top" Width="280">
             <Button Style="{StaticResource Local_ButtonTemplate}"
                     Background="#FFFF6347"
-                    Content="退出" />
+                    Content="退出"
+                    Command="{Binding QuitDemoCommand}"/>
         </StackPanel>
     </Grid>
 </UserControl>

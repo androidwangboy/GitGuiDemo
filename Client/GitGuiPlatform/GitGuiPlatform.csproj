@@ -72,6 +72,7 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Windows.Interactivity">
       <HintPath>..\..\Lib\System.Windows.Interactivity.dll</HintPath>
     </Reference>
@@ -106,10 +107,15 @@
     </Compile>
     <AppDesigner Include="Properties\" />
     <Compile Include="RegionNames.cs" />
+    <Compile Include="ViewModels\CommitHistoryViewModel.cs" />
     <Compile Include="ViewModels\ErrorMessageViewModel.cs" />
+    <Compile Include="ViewModels\ICommitHistoryViewModel.cs" />
     <Compile Include="ViewModels\IErrorMessageViewModel.cs" />
     <Compile Include="ViewModels\IWelcomeViewModel.cs" />
     <Compile Include="ViewModels\WelcomeViewModel.cs" />
+    <Compile Include="Views\CommitHistoryView.xaml.cs">
+      <DependentUpon>CommitHistoryView.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\ErrorMessageView.xaml.cs">
       <DependentUpon>ErrorMessageView.xaml</DependentUpon>
     </Compile>
@@ -125,6 +131,10 @@
   </ItemGroup>
   <ItemGroup>
     <Page Include="DataTemplate\ViewDataTemplate.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\CommitHistoryView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

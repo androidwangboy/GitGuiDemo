@@ -1,0 +1,176 @@
+﻿<UserControl x:Class="Cafe.GitGuiPlatform.Views.CommitHistoryView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:i="clr-namespace:System.Windows.Interactivity;assembly=System.Windows.Interactivity"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d"
+             x:Name="m_Self">
+    <UserControl.Resources>
+        <Style x:Key="Local_NoticeText" TargetType="TextBlock">
+            <Setter Property="Width" Value="auto" />
+            <Setter Property="Height" Value="20" />
+            <Setter Property="Foreground" Value="White" />
+            <Setter Property="FontSize" Value="14" />
+            <Setter Property="FontFamily" Value="Arial" />
+        </Style>
+        <Style x:Key="Local_PlayerStackPanel" TargetType="StackPanel">
+            <Setter Property="Height" Value="130" />
+            <Setter Property="Width" Value="190" />
+            <Setter Property="Margin" Value="3" />
+            <Setter Property="Background" Value="#FF009FCC" />
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="#00AA00" />
+                    <Setter Property="RenderTransform">
+                        <Setter.Value>
+                            <TransformGroup>
+                                <ScaleTransform ScaleX="1.1" />
+                                <ScaleTransform ScaleY="1.1" />
+                                <TranslateTransform X="-8" />
+                                <TranslateTransform Y="-8" />
+                            </TransformGroup>
+                        </Setter.Value>
+                    </Setter>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+        <Style x:Key="Local_BackImage" TargetType="Image">
+            <Setter Property="Width" Value="30" />
+            <Setter Property="Height" Value="30" />
+            <Setter Property="Stretch" Value="Fill" />
+            <Style.Triggers>
+                <Trigger Property="IsMouseDirectlyOver" Value="True">
+                    <Setter Property="Source" Value="/GitGuiPlatform;component/Icons/BackButton_Pressed.png" />
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+        <Style x:Key="Local_InfoStackPanel" TargetType="StackPanel">
+            <Setter Property="Margin" Value="10,10,0,0" />
+            <Setter Property="TextElement.Foreground" Value="White" />
+            <Setter Property="TextElement.FontSize" Value="16" />
+            <Setter Property="TextElement.FontFamily" Value="Arial" />
+        </Style>
+        <Style x:Key="Local_SecondInfo" TargetType="TextBlock">
+            <Setter Property="Margin" Value="10,10,0,0" />
+            <Setter Property="Foreground" Value="White" />
+            <Setter Property="FontSize" Value="14" />
+            <Setter Property="FontFamily" Value="Arial" />
+        </Style>
+        <Style x:Key="Local_StandardButton" TargetType="Button">
+            <Setter Property="Height" Value="23" />
+            <Setter Property="Width" Value="25" />
+            <Setter Property="BorderBrush" Value="#FFF8EFEF" />
+            <Setter Property="Background" Value="#FF0A0A0A" />
+            <Setter Property="ClickMode" Value="Press" />
+            <Setter Property="BorderBrush" Value="#FFF8EFEF" />
+            <Setter Property="FontFamily" Value="Arial" />
+            <Setter Property="FontSize" Value="14" />
+            <Setter Property="Foreground" Value="#FFF8F8F8" />
+        </Style>
+    </UserControl.Resources>
+    <Grid Width="700"
+          Height="576"
+          Background="#FF453E3E">
+        <StackPanel Width="600"
+                    Height="46"
+                    Margin="30,20,0,0"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Top"
+                    Orientation="Horizontal">
+            <Image Name="m_GoToSearch"
+                   Margin="15,0,0,5"
+                   Source="/GitGuiPlatform;component/Icons/BackButton_Normal.png"
+                   Style="{StaticResource Local_BackImage}">
+                <i:Interaction.Triggers>
+                    <i:EventTrigger EventName="MouseLeftButtonDown">
+                        <i:InvokeCommandAction Command="{Binding ClickSearchCommand}" />
+                    </i:EventTrigger>
+                </i:Interaction.Triggers>
+            </Image>
+            <TextBlock Width="240"
+                       Height="30"
+                       Margin="10,0,0,0"
+                       FontFamily="Arial"
+                       FontSize="24"
+                       FontStretch="Normal"
+                       FontStyle="Normal"
+                       FontWeight="Normal"
+                       Foreground="White"
+                       Text="Commit History View" />
+            <ItemsControl Name="m_CommitListItemControl" ItemsSource="{Binding Path=CommitList}">
+                <ItemsControl.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <WrapPanel Width="610"
+                                   Margin="45,52,0,0"
+                                   HorizontalAlignment="Left"
+                                   VerticalAlignment="Top"
+                                   Orientation="Horizontal" />
+                    </ItemsPanelTemplate>
+                </ItemsControl.ItemsPanel>
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel Style="{StaticResource Local_PlayerStackPanel}">
+                            <i:Interaction.Triggers>
+                                <i:EventTrigger EventName="MouseDown">
+                                    <i:InvokeCommandAction Command="{Binding DataContext.ClickStackPanelCommand, ElementName=m_Self}" CommandParameter="{Binding OriginalPlayerId}" />
+                                </i:EventTrigger>
+                            </i:Interaction.Triggers>
+                            <StackPanel Orientation="Horizontal" Style="{StaticResource Local_InfoStackPanel}">
+                                <TextBlock Text="{Binding GivenName}" />
+                                <TextBlock Text="  " />
+                                <TextBlock Text="{Binding FamilyName}" />
+                            </StackPanel>
+                            <TextBlock Style="{StaticResource Local_SecondInfo}" Text="{Binding Phone}" />
+                            <StackPanel Orientation="Horizontal" Style="{StaticResource Local_InfoStackPanel}">
+                                <TextBlock Text="{Binding MonthOfBirthday}" />
+                                <TextBlock Text="-" />
+                                <TextBlock Text="{Binding DayOfBirthday}" />
+                                <TextBlock Text="-" />
+                                <TextBlock Text="{Binding YearOfBirthday}" />
+                            </StackPanel>
+                            <TextBlock Style="{StaticResource Local_SecondInfo}" Text="{Binding Area}" />
+                        </StackPanel>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
+        </StackPanel>
+        <StackPanel Width="610"
+                    Height="62"
+                    Margin="45,500,0,0"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Top"
+                    Orientation="Horizontal">
+            <Image Name="m_PreviousPage"
+                   Source="/GitGuiPlatform;component/Icons/PreviousPageButton.bmp"
+                   Style="{StaticResource Local_BackImage}">
+                <i:Interaction.Triggers>
+                    <i:EventTrigger EventName="MouseLeftButtonDown">
+                        <i:InvokeCommandAction Command="{Binding ClickFrontPage}" />
+                    </i:EventTrigger>
+                </i:Interaction.Triggers>
+            </Image>
+            <Image Name="m_NextPage"
+                   Margin="5,0,0,0"
+                   Source="/GitGuiPlatform;component/Icons/NextPageButton.bmp"
+                   Style="{StaticResource Local_BackImage}">
+                <i:Interaction.Triggers>
+                    <i:EventTrigger EventName="MouseLeftButtonDown">
+                        <i:InvokeCommandAction Command="{Binding ClickNextPage}" />
+                    </i:EventTrigger>
+                </i:Interaction.Triggers>
+            </Image>
+            <TextBlock Margin="5,0,0,0"
+                       Style="{StaticResource Local_NoticeText}"
+                       Text="(" />
+            <TextBlock Name="m_CurrentPage"
+                       Style="{StaticResource Local_NoticeText}"
+                       Text="{Binding CurrentPageNumber}" />
+            <TextBlock Style="{StaticResource Local_NoticeText}" Text="/" />
+            <TextBlock Name="m_TotalPage"
+                       Style="{StaticResource Local_NoticeText}"
+                       Text="{Binding paging.TotalPages}" />
+            <TextBlock Style="{StaticResource Local_NoticeText}" Text=")" />
+        </StackPanel>
+    </Grid>
+</UserControl>

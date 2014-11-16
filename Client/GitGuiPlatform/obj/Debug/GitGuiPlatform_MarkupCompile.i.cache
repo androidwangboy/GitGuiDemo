@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 
-3-2120444864
+4-1751944368
 
-16491177053
-251412031582
-DataTemplate\ViewDataTemplate.xaml;Views\ErrorMessageView.xaml;Views\WelcomeView.xaml;
+19-534939360
+26828301963
+DataTemplate\ViewDataTemplate.xaml;Views\CommitHistoryView.xaml;Views\ErrorMessageView.xaml;Views\WelcomeView.xaml;
 
 False
 

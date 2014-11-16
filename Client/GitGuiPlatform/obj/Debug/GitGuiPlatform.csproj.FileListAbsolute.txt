@@ -103,3 +103,5 @@ E:\workspaces\Demo Project\Client\GitGuiPlatform\obj\Debug\GeneratedInternalType
 E:\workspaces\Demo Project\Client\GitGuiPlatform\obj\Debug\Views\ErrorMessageView.baml
 E:\workspaces\Demo Project\Client\GitGuiPlatform\obj\Debug\Views\ErrorMessageView.g.cs
 E:\workspaces\Demo Project\Client\GitGuiPlatform\obj\Debug\GitGuiPlatform.csprojResolveAssemblyReference.cache
+E:\workspaces\Demo Project\Client\GitGuiPlatform\obj\Debug\Views\CommitHistoryView.baml
+E:\workspaces\Demo Project\Client\GitGuiPlatform\obj\Debug\Views\CommitHistoryView.g.cs
